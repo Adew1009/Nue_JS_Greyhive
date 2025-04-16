@@ -1,0 +1,357 @@
+/* Z original GHV files/landingPageStyle.css */
+::-webkit-scrollbar {
+  background: none;
+  width: 0;
+}
+
+html {
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(100vh);
+  scroll-snap-type: y mandatory;
+}
+
+body {
+  overflow-x: hidden;
+  user-select: none;
+  scroll-behavior: smooth;
+  background-color: #121212;
+  margin: 0;
+}
+
+.heroBanner {
+  scroll-snap-align: start;
+  display: flex;
+  background-image: url("assets/newHero.png");
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  padding-block-start: 100px;
+  padding-block-end: 100px;
+  font-family: Lato, sans-serif;
+}
+
+.heroBanner_upperText {
+  text-align: center;
+}
+
+.heroBanner_upperText p, .row-mainText p {
+  color: #bba777;
+  font-family: Lato, sans-serif;
+  font-size: 28px;
+}
+
+.heroBanner_upperText h2 {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 65px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.heroBanner_upperText button, .row6 button {
+  color: #000;
+  background-color: #00a3e0;
+  border-style: solid;
+  border-width: 0;
+  border-radius: 5px;
+  padding: 20px 55px;
+  font-family: Lato, sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.heroBanner_lowerText {
+  display: flex;
+  justify-content: center;
+  align-items:  center;
+  margin-top: 3rem;
+}
+
+.heroBanner_lowerText img {
+  height: 115px;
+}
+
+.heroBanner_lower_graphic {
+  text-align: center;
+}
+
+.heroBanner_graphicText {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.first-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.homepage-video {
+  overflow: hidden;
+  background-size: cover;
+  bottom: 0;
+  right: 0;
+  width: 100% !important;
+  height: auto !important;
+}
+
+.col-image_fullsize {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+.row-mainText h3 {
+  color: #fbfbfb;
+  font-family: Lato, sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.row2 .row-mainText {
+  position: absolute;
+  right: 0;
+}
+
+.row1 {
+  padding: 5em;
+  scroll-snap-align: start;
+  max-height: 42.5vh;
+  padding-bottom: 2em;
+}
+
+.row2 {
+  display: flex;
+  align-items:  flex-end;
+}
+
+.row3, .row4, .row6, footer {
+  scroll-snap-align: start;
+}
+
+.row2, .row3, .row4, .row5, .row6 {
+  padding: 2em 5em;
+}
+
+.homepage-bullets p {
+  color: #fff;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.svg-icon {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  width: 16.3px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.row6 {
+  margin-top: 2em;
+}
+
+.row6 h3 {
+  color: #bba777;
+  font-family: Lato, sans-serif;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.row6 p {
+  text-align: left;
+  color: #f3f3f3;
+  font-family: Lato, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.hover-container {
+  position: relative;
+}
+
+.hover-image {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+}
+
+.img-overlay {
+  position: absolute;
+  opacity: 0;
+  background-color: #14141474;
+  border-width: 1rem;
+  border-bottom-style: solid;
+  border-bottom-color: #bba777;
+  width: 100%;
+  height: 100%;
+  transition: all .5s;
+  inset: 0;
+}
+
+.text {
+  position: absolute;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 0em;
+  color: #fdfdfd;
+  font-family: Lato, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.2em;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.hover-container_show .img-overlay, .hover-container:hover .img-overlay {
+  opacity: 1;
+}
+
+#instructor1 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Full-Spectrum-Warrior-1.jpg");
+}
+
+#instructor2 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Modern-Samurai-Project-1.jpg");
+}
+
+#instructor3 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Carry-Trainer-1.jpg");
+}
+
+#instructor4 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-2Alpha-Training-Group-1.jpg");
+}
+
+#instructor5 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Rick-Hogg-1.jpg");
+}
+
+#instructor6 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-JBS-Training-Group-1.jpg");
+}
+
+#creator1 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-GoldenWebb-1.jpg");
+}
+
+#creator2 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Tactical-Advisor (1).jpg");
+}
+
+#creator3 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Tactical-Turkeys-1 (1).jpg");
+}
+
+#creator4 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-The-2A-Boys-1.jpg");
+}
+
+#creator5 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Jim-Fuller-1.jpg");
+}
+
+#creator6 {
+  background-image: url("assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Barrel-Hatchet-1.jpg");
+}
+
+.image-container {
+  position: relative;
+  background-position: 50%;
+  background-size: cover;
+  height: 280px;
+}
+
+.image-container .img-text {
+  display: inline-block;
+}
+
+.image-container .img-text:after {
+  content: "";
+  display: block;
+  background: #bba777;
+  width: 0;
+  height: 5px;
+  transition: all .3s;
+}
+
+.image-container .img-text:hover:after {
+  width: 100%;
+}
+
+.row-image {
+  object-fit: contain;
+}
+
+.img-text {
+  position: absolute;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: 0em;
+  color: #fff;
+  text-wrap: wrap;
+  max-width: 205px;
+  font-family: Lato, sans-serif;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.2em;
+  bottom: 1rem;
+  left: 1rem;
+}
+
+.row4, .row5 {
+  background-color: #27272a;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.row5 {
+  padding-bottom: 2rem !important;
+}
+
+.row4 p, .row5 p {
+  margin-bottom: -10px;
+  line-height: 40px;
+  color: #fff !important;
+}
+
+.row4 a, .row5 a {
+  color: #bba777;
+  font-size: 14px;
+}
+
+.row4 a:hover, .row5 a:hover {
+  color: #fff;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+}
+
+footer {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 200;
+}
+
+footer img, footer svg {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.footer-svg {
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(105%) contrast(102%);
+}

@@ -1,4 +1,4 @@
-/* simple-mpa/@globals/0-settings.css */
+/* @globals/0-settings.css */
 @layer settings, structure, contexts, components, effects, adjustments, screens, overrides;
 
 @layer settings {
@@ -32,5 +32,6 @@
     font-family: system-ui;
     font-size: 15px;
     margin: 0;
+    background-color: gray;
   }
 }

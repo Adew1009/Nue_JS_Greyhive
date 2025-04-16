@@ -1,0 +1,327 @@
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+html{
+    scroll-snap-type: mandatory;
+    scroll-snap-points-y: repeat(100vh);
+    scroll-snap-type: y mandatory;
+}
+body{
+    margin: 0;
+    background-color: rgb(18, 18, 18);
+    overflow-x: hidden;
+    user-select:none;          
+    scroll-behavior: smooth;
+}
+.heroBanner{
+    background-image: url(assets/newHero.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block-start: 100px;
+    padding-block-end: 100px;
+    font-family: 'Lato', sans-serif;
+    scroll-snap-align:start;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heroBanner_upperText{
+    text-align: center;
+}
+.heroBanner_upperText p, .row-mainText p{
+    color: rgb(187, 167, 119);
+    font-size: 28px;
+    font-family: 'Lato', sans-serif;
+}
+
+.heroBanner_upperText h2{
+    color: #FFFFFF;
+    font-family: 'Lato', sans-serif;
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 1;
+}
+.heroBanner_upperText button, .row6 button{
+    background-color: #00A3E0;
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    border-style: solid;
+    border-width: 0px;
+    border-radius: 5px;
+    padding: 20px 55px 20px 55px;
+}
+.heroBanner_lowerText{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroBanner_lowerText img{
+    height: 115px;
+}
+.heroBanner_lower_graphic{
+    text-align: center;
+}
+.heroBanner_graphicText{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #FFFFFF;
+    line-height: 1.5;
+}
+.first-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding-bottom: 10em;*/
+}
+.homepage-video{
+    right: 0; 
+    bottom: 0;
+    width: 100% !important; 
+    height: auto !important;
+    background-size: cover;
+    overflow: hidden;
+}
+.col-image_fullsize{
+    max-width: 100% !important; 
+    height: auto !important;
+}
+.row-mainText h3{
+    color: #FBFBFB;
+    font-family: 'Lato', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.row2 .row-mainText{
+    position: absolute;
+    /*bottom: -100px;*/
+    right: 0;
+}
+.row1{
+    padding: 5em;
+    padding-bottom: 2em;
+    scroll-snap-align:start;
+    max-height: 42.5vh;
+}
+.row2{
+    display: flex;
+    align-items: flex-end;
+}
+.row3, .row4, .row6, footer{
+    scroll-snap-align:start;
+}
+.row2, .row3, .row4, .row5, .row6{ 
+    padding-right: 5em;
+    padding-left: 5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+.homepage-bullets p{
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.svg-icon{
+    display: inline-block;
+    width: 16.3px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    margin-right: 5px;
+}
+.row6{
+    margin-top: 2em;
+}
+.row6 h3{
+    color: rgb(187, 167, 119);
+    font-family: 'Lato', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+.row6 p{
+    text-align: left;
+    color: #F3F3F3;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.hover-container {
+    position: relative;
+  }
+.hover-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+  }
+.img-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #14141474;
+    border-bottom: 1px solid rgb(187, 167, 119);
+    border-width: 1rem;
+  }
+  .text {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+    color: #FDFDFD;
+  }
+  .hover-container_show .img-overlay {
+    opacity: 1;
+  }
+  .hover-container:hover .img-overlay {
+    opacity: 1;
+  }
+
+  #instructor1{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Full-Spectrum-Warrior-1.jpg);
+  }
+  #instructor2{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Modern-Samurai-Project-1.jpg);
+  }
+  #instructor3{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Carry-Trainer-1.jpg);
+  }
+  #instructor4{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-2Alpha-Training-Group-1.jpg);
+  }
+  #instructor5{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Rick-Hogg-1.jpg)
+  }
+  #instructor6{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-JBS-Training-Group-1.jpg);
+  }
+  #creator1{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-GoldenWebb-1.jpg);
+  }
+  #creator2{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Tactical-Advisor\ \(1\).jpg);
+  }
+  #creator3{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Tactical-Turkeys-1\ \(1\).jpg);
+  }
+  #creator4{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-The-2A-Boys-1.jpg);
+  }
+  #creator5{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Jim-Fuller-1.jpg);
+  }
+  #creator6{
+    background-image: url(assets/instructors+creators/Team-Room-Cards-BG-550-x-825-Barrel-Hatchet-1.jpg);
+  }
+  .image-container{
+    height: 280px;
+    /*width: 235px;*/
+    background-position: 50%;
+    background-size: cover;
+    position: relative;
+  }
+  .image-container .img-text {
+    display: inline-block;
+  }
+  .image-container .img-text::after {
+    content: '';
+    width: 0px;
+    height: 5px;
+    display: block;
+    background: rgb(187, 167, 119);
+    transition: 300ms;
+  }
+  .image-container .img-text:hover::after {
+    width: 100%;
+  }
+  .row-image{
+    object-fit: contain;
+  }
+  .img-text{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 1.2em;
+    letter-spacing: 1px;
+    word-spacing: 0em;
+    color: #FFFFFF;
+    max-width: 205px;
+    text-wrap: wrap;
+  }
+  .row4, .row5{
+    background-color: rgb(39, 39, 42);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .row5{
+    padding-bottom: 2rem !important;
+  }
+  .row4 p, .row5 p{
+    color: #FFFFFF!important;
+    margin-bottom: -10px;
+    line-height: 40px;;
+  }
+  .row4 a, .row5 a{
+    font-size: 14px;
+    color:rgb(187, 167, 119);
+  }
+  .row4 a:hover, .row5 a:hover {
+    color:#FFFFFF;
+  }
+  
+  /* Link Styles */
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+footer{
+  color: #FFFFFF;
+  font-weight: 200;
+  font-size: 12px;
+}
+footer img, footer svg{
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+.footer-svg{
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(105%) contrast(102%);
+}

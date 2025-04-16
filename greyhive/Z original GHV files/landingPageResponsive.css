@@ -1,0 +1,133 @@
+@media screen and (max-width: 319.98px){
+
+}
+
+@media screen and (max-width: 479.98px){
+    
+}
+@media screen and (max-width: 579.98px){
+    
+}
+@media screen and (max-width: 639.99px){
+    
+}
+@media screen and (max-width: 767.98px){
+    .hide-768{
+        opacity: 0;
+    }
+    .dNone-768{
+        display: none !important;
+    }
+}
+@media screen and (max-width: 991.98px){
+    .hide-992{
+        opacity: 0;
+    }
+    .show-992{
+        opacity: 1 !important;
+    }
+    .dNone-992{
+        display: none !important;
+    }
+    .heroBanner_lowerText {
+        display: block;
+    }
+    .heroBanner_upperText p, .row-mainText p{
+        font-size: 45px;
+    }
+    
+    .heroBanner_upperText h2{
+        font-size: 85px;
+    }
+    .heroBanner_upperText button, .row6 button{
+        font-size: 45px;
+        padding: 20px 55px 20px 55px;
+    }
+    .first-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        /*height: 100vh !important;*/
+        /*padding-bottom: 10rem;*/
+    }
+    .row{
+        display: block;
+    }
+    .row1{
+        max-height: unset !important;
+    }
+    .row2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .row1, .row2{
+        text-align: center;
+    }
+    .row2 .row-mainText{
+        position: relative;
+    }
+    .row4 > .row, .row5 > .row{
+        display: flex;
+    }
+    .row2, .row3, .row5, .row6{ 
+        /*margin-bottom: 10rem;*/
+    }
+    .row3{
+        margin-bottom: 5rem;
+    }
+    .row3, .row4, .row6{ 
+        text-align: center;
+        padding-top: 5rem;
+    }
+    .row4, .row5{
+        scroll-snap-align:start;
+        padding-bottom: 5rem;
+    }
+    .row5{
+        text-align: center;
+        padding-bottom: 7.5rem !important;
+    }
+    .row4 p, .row5 p{
+        margin-bottom: 5px;
+      }
+      .row4 a, .row5 a{
+        font-size: 28px;
+      }
+    .col-6, .col-4, .col-8{
+        width: 100% !important;
+    }
+    .col-sm-2{
+        width: 50% !important;
+        margin-bottom: 1em;
+    }
+    .image-container{
+        background-position: top;
+    }
+    .img-text{
+        text-shadow: rgb(0, 0, 0) 2px 0px 0px, rgb(0, 0, 0) 1.83487px 0.981584px 0px, rgb(0, 0, 0) 1.35766px .85511px 0px, rgb(0, 0, 0) 1.62091px 2.52441px 0px, rgb(0, 0, 0) 0.705713px 1.91581px 0px, rgb(0, 0, 0) -0.287171px 1.98622px 0px, rgb(0, 0, 0) -1.24844px 1.72789px 0px, rgb(0, 0, 0) -1.07227px 1.16926px 0px, rgb(0, 0, 0) -1.66798px 0.37182px 0px, rgb(0, 0, 0) -1.96998px 0.42336px 0px, rgb(0, 0, 0) -1.94502px -0.571704px 0px, rgb(0, 0, 0) -1.59586px -0.50383px 0px, rgb(0, 0, 0) -0.96093px -1.27041px 0px, rgb(0, 0, 0) -0.11013px -1.78704px 0px, rgb(0, 0, 0) -0.137119px -1.99686px 0px, rgb(0, 0, 0) 0.850987px -1.87677px 0px, rgb(0, 0, 0) 0.74541px -1.43999px 0px, rgb(0, 0, 0) 1.44769px -0.73459px 0px, rgb(0, 0, 0) 1.88051px -0.838247px 0px;
+    }
+}
+/*Ipad Mini and Air*/
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .heroBanner_upperText{
+        transform: scale(0.7);
+    }
+    .heroBanner_lowerText{
+        display: none;
+    }
+}
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+
+}
+@media all and (device-width: 820px) and (device-height: 1180px) and (orientation:portrait) {
+    .heroBanner_upperText{
+        transform: scale(0.7);
+    }
+    .heroBanner_lowerText{
+        display: none;
+    }
+}
+@media all and (device-width: 1180px) and (device-height: 820px) and (orientation:landscape) {
+
+}
